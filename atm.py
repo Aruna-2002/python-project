@@ -1,7 +1,7 @@
 #print("~~~~~~~WELCOME TO SIB ATM~~~~~~~")
 print("1.BALANCE ENQUIRY    2.CASH WITHDRAWL\n3.MINISTATEMENT      4.TRANSFER\n        5.PIN GENERATE")
 option=int(input("Enter the <OPTION> you want:"))
-lang=int()
+
 if option==1:
     name=input("ENTER YOUR NAME:")
     acc_no=int(input("ENTER YOUR ACCOUNT NUMBER="))
